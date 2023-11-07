@@ -43,7 +43,7 @@ Citizen.CreateThread(function()
                 0 --[[ boolean ]]
             );
             if distance < 1 then
-                AddTextEntry("HELP", "Appuyez sur E pour demander un Kalahari.");
+                AddTextEntry("HELP", "Appuyez sur ~INPUT_CONTEXT~ pour demander un Kalahari.");
                 DisplayHelpTextThisFrame("HELP", false)
                 if IsControlJustPressed(1, 51) then
                     spawnCar("kalahari")
